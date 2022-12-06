@@ -22,7 +22,9 @@ function PortfolioContainer() {
         if (currentPage === 'AboutMe') {
           return <AboutMe />;
         }
-        return <Contact />;
+        if (currentPage === 'Contact') {
+          return <Contact />;
+        }
       };
 
     const handlePageChange = (page) => setCurrentPage(page);

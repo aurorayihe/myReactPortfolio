@@ -4,7 +4,8 @@ function Header({ currentPage, handlePageChange}) {
     
     return (
         <div>
-            <h1> Jenny </h1>
+            <h1> Jenny Wang </h1>
+            <p> A sample portfolio. More updates coming up!</p>
             <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <a
@@ -42,7 +43,7 @@ function Header({ currentPage, handlePageChange}) {
                     href="#resume"
                     onClick={() => handlePageChange('Resume')}
                     // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                     >
                     Resume
                     </a>

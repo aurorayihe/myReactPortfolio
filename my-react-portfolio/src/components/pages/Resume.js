@@ -1,13 +1,12 @@
 import React from 'react';
+import resume1 from '../../assets/resume1.PNG';
 
 export default function Resume() {
-  const resumeLink = '../../assets/CV_JW.pdf'
   return (
     <div>
       <button>Download my Resume</button>
-      <document file={resumeLink}>
-
-      </document>
+      <br/>
+      <img src={resume1}></img>
     </div>
   );
 }
