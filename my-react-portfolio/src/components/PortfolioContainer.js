@@ -5,6 +5,7 @@ import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import AboutMe from './pages/AboutMe';
+import '../styles/style.css';
 
 function PortfolioContainer() {
     // Set home as the default page.
