@@ -1,8 +1,15 @@
 import React from 'react';
+import avatar from '../../assets/avatar.PNG';
+
+const styles = {
+  width: '100px',
+  height: '100px'
+}
 
 export default function AboutMe() {
   return (
     <div>
+      <img src={avatar} style={styles}></img>
       <h1>About Me</h1>
       <p>
         Hi there! I am <span className='hightlight-aboutme'>Jiong Wang</span>. I am a biology student now heading my way to software engineering.
