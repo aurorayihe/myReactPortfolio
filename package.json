@@ -1,5 +1,5 @@
 {
-  "name": "my-react-portfolio",
+  "name": "myReactPortfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://aurorayihe.github.io/myReactPortfolio",
@@ -20,8 +20,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
+    "build": "react-scripts build",
+    "serve": "serve build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"  
+},
   "eslintConfig": {
     "extends": [
       "react-app",
